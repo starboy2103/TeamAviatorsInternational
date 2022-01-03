@@ -18,19 +18,19 @@ function App() {
   return (
     <>
       <Router>
-          <Route path="/TeamAviatorsInternational" component={Navbar}/>
-          <Route path="/TeamAviatorsInternational" exact component={Carousel} />
-          <Route path="/TeamAviatorsInternational" exact component={Aboutus} />
-          <Route path="/TeamAviatorsInternational" exact component={Sponsors} />
-          <Route path="/TeamAviatorsInternational" exact component={Achievement} />
-          <Route path="/TeamAviatorsInternational" component={RequestProject} />
-          <Route path="/TeamAviatorsInternational" component={Doubts} />
+          <Route path="/" component={Navbar}/>
+          <Route path="/" exact component={Carousel} />
+          <Route path="/" exact component={Aboutus} />
+          <Route path="/" exact component={Sponsors} />
+          <Route path="/" exact component={Achievement} />
+          <Route path="/" component={RequestProject} />
+          <Route path="/" component={Doubts} />
           {/* <Route path="/team" component={Navbar} element={<Navbar highlight="btn-ylw"/>}/> */}
-          <Route path="/TeamAviatorsInternational/team" component={Teams} />
-          <Route path="/TeamAviatorsInternational/team" component={Batches} />
-          <Route path="/TeamAviatorsInternational/project" component={Project} />
-          <Route path="/TeamAviatorsInternational/gallery" component={Gallery} />
-          <Route path="/TeamAviatorsInternational" component={Footer} />
+          <Route path="/team" component={Teams} />
+          <Route path="/team" component={Batches} />
+          <Route path="/project" component={Project} />
+          <Route path="/gallery" component={Gallery} />
+          <Route path="/" component={Footer} />
       </Router>
     </>
   );
