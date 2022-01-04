@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/TeamAviatorsInternational/static/css/main.7b32725e.chunk.css",
-    "main.js": "/TeamAviatorsInternational/static/js/main.559cfb8b.chunk.js",
-    "main.js.map": "/TeamAviatorsInternational/static/js/main.559cfb8b.chunk.js.map",
+    "main.css": "/TeamAviatorsInternational/static/css/main.3800a65f.chunk.css",
+    "main.js": "/TeamAviatorsInternational/static/js/main.089bce48.chunk.js",
+    "main.js.map": "/TeamAviatorsInternational/static/js/main.089bce48.chunk.js.map",
     "runtime-main.js": "/TeamAviatorsInternational/static/js/runtime-main.268f88de.js",
     "runtime-main.js.map": "/TeamAviatorsInternational/static/js/runtime-main.268f88de.js.map",
     "static/js/2.93d5f2f5.chunk.js": "/TeamAviatorsInternational/static/js/2.93d5f2f5.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.bceb4822.chunk.js": "/TeamAviatorsInternational/static/js/3.bceb4822.chunk.js",
     "static/js/3.bceb4822.chunk.js.map": "/TeamAviatorsInternational/static/js/3.bceb4822.chunk.js.map",
     "index.html": "/TeamAviatorsInternational/index.html",
-    "static/css/main.7b32725e.chunk.css.map": "/TeamAviatorsInternational/static/css/main.7b32725e.chunk.css.map",
+    "static/css/main.3800a65f.chunk.css.map": "/TeamAviatorsInternational/static/css/main.3800a65f.chunk.css.map",
     "static/js/2.93d5f2f5.chunk.js.LICENSE.txt": "/TeamAviatorsInternational/static/js/2.93d5f2f5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.268f88de.js",
     "static/js/2.93d5f2f5.chunk.js",
-    "static/css/main.7b32725e.chunk.css",
-    "static/js/main.559cfb8b.chunk.js"
+    "static/css/main.3800a65f.chunk.css",
+    "static/js/main.089bce48.chunk.js"
   ]
 }
