@@ -16,7 +16,7 @@ export default class Carousel extends Component {
                     <div className="carousel-txt-overlay" id="hide-mob">
                         <h1 className="display-4 textsemibold">Team Aviators International</h1>
                         <p>WE TALK IN MACHS!</p>
-                        <a className="btn btn-ylw textsemibold" role="button" href="/project">View Projects</a>
+                        <a className="btn btn-ylw textsemibold" role="button" href="/TeamAviatorsInternational/#/project">View Projects</a>
                     </div>
                         
                 </div>
