@@ -11,7 +11,7 @@ import Teams from './components/Teams';
 import Batches from './components/Batches';
 import Project from './components/Projects';
 import Gallery from './components/Gallery';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {HashRouter as Router, Switch, Route} from 'react-router-dom';
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
     <>
       <Router>
           <Route path="/" component={Navbar}/>
-          <Route path="/" component={Carousel} />
+          <Route path="/" exact component={Carousel} />
           <Route path="/" exact component={Aboutus} />
           <Route path="/" exact component={Sponsors} />
           <Route path="/" exact component={Achievement} />
