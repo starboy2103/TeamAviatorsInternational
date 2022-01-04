@@ -19,7 +19,7 @@ function App() {
     <>
       <Router>
           <Route path="/" component={Navbar}/>
-          <Route path="/" exact component={Carousel} />
+          <Route path="/" component={Carousel} />
           <Route path="/" exact component={Aboutus} />
           <Route path="/" exact component={Sponsors} />
           <Route path="/" exact component={Achievement} />
