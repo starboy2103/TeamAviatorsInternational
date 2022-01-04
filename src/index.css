@@ -582,4 +582,9 @@ hr{
   {
     display: none;
   }
+  #progress-bar-container ul
+  {
+    margin-left: -9%;
+  }
+
 }
