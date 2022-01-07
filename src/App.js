@@ -17,7 +17,7 @@ import {HashRouter as Router, Switch, Route} from 'react-router-dom';
 function App() {
   return (
     <>
-      <Router hashType='slash'>
+      <Router hashType='slash' basename={process.env.PUBLIC_URL}>
           <Route path="/" component={Navbar}/>
           <Route path="/" exact component={Carousel} />
           <Route path="/" exact component={Aboutus} />
