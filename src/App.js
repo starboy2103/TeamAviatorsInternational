@@ -31,7 +31,6 @@ function App() {
           <Route path="/project" component={Project} />
           <Route path="/gallery" component={Gallery} />
           <Route path="/" component={Footer} />*/}
-          <Switch>
             <Route path="/" component={Navbar}/>
             <Route path="/" exact component={Carousel} />
             <Route path="/" exact component={Aboutus} />
@@ -45,7 +44,6 @@ function App() {
             <Route path="/project" component={Project} />
             <Route path="/gallery" component={Gallery} />
             <Route path="/" component={Footer} />
-          </Switch>
       </Router>
     </>
   );
