@@ -11,13 +11,13 @@ import Teams from './components/Teams';
 import Batches from './components/Batches';
 import Project from './components/Projects';
 import Gallery from './components/Gallery';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {HashRouter as Router, Switch, Route} from 'react-router-dom';
 
 
 function App() {
   return (
     <>
-      <Router>  {/*hashType='slash' basename={process.env.PUBLIC_URL}*/}
+      <Router hashType='slash'>  {/* basename={process.env.PUBLIC_URL}*/}
           <Route path="/" component={Navbar}/>
           <Route path="/" exact component={Carousel} />
           <Route path="/" exact component={Aboutus} />
