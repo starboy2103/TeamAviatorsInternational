@@ -17,7 +17,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 function App() {
   return (
     <>
-      <Router basename={process.env.PUBLIC_URL}>  {/*hashType='slash' */}
+      <Router>  {/*hashType='slash' */}
           <Route path="/" component={Navbar}/>
           <Route path="/" exact component={Carousel} />
           <Route path="/" exact component={Aboutus} />
