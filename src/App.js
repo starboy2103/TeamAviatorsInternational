@@ -39,10 +39,10 @@ function App() {
             <Route path="/" component={RequestProject} />
             <Route path="/" component={Doubts} />
             {/* <Route path="/team" component={Navbar} element={<Navbar highlight="btn-ylw"/>}/> */}
-            <Route path="/team" component={Teams} />
-            <Route path="/team" component={Batches} />
-            <Route path="/project" component={Project} />
-            <Route path="/gallery" component={Gallery} />
+            <Route path="/team" exact component={Teams} />
+            <Route path="/team" exact component={Batches} />
+            <Route path="/project" exact component={Project} />
+            <Route path="/gallery" exact component={Gallery} />
             <Route path="/" component={Footer} />
       </Router>
     </>
