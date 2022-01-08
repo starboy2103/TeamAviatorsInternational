@@ -11,7 +11,7 @@ import Teams from './components/Teams';
 import Batches from './components/Batches';
 import Project from './components/Projects';
 import Gallery from './components/Gallery';
-import {BrowserRouter as Router, Switch, Route, Switch} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 
 function App() {
