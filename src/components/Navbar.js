@@ -5,10 +5,10 @@ export default class Navbar extends Component {
     return (
       <nav className="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
         <div className="container">
-          <a className="navbar-brand mr-4 font-weight-bold d-none d-md-block" href="/" >
+          <a className="navbar-brand mr-4 font-weight-bold d-none d-md-block" href="/#/" >
             <img src="logo.png" height="50" alt="logo" className="mr-3"/>
             </a>
-            <a className="navbar-brand mr-4 font-weight-bold d-block d-md-none " href="/">
+            <a className="navbar-brand mr-4 font-weight-bold d-block d-md-none " href="/#/">
               <img src="logo.png" height="50" alt="mdb logo" className="mr-3"/>
             </a>
               <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
@@ -18,21 +18,21 @@ export default class Navbar extends Component {
               <div className="collapse navbar-collapse" id="basicExampleNav">
                 <ul className="navbar-nav ml-auto textsemibold">
                   <li className="nav-item click-eff" id="home">
-                    <a type="submit" className="nav-link  px-4" href="/" id="nav-btn1">
+                    <a type="submit" className="nav-link  px-4" href="/#/" id="nav-btn1">
                       Home
                     </a>
                   </li>
                   <li className="nav-item click-eff" id="team">
-                    <a className="nav-link px-4 " href="/team" id="nav-btn2">Our Team</a>
+                    <a className="nav-link px-4 " href="/#/team" id="nav-btn2">Our Team</a>
                   </li>
                   <li className="nav-item click-eff" id="proj">
-                    <a className="nav-link px-4" href="/project" id="nav-btn3">Projects</a>
+                    <a className="nav-link px-4" href="/#/project" id="nav-btn3">Projects</a>
                   </li>
                   <li className="nav-item click-eff" id="gall">
-                    <a className="nav-link px-4" href="/gallery" id="nav-btn4">Gallery</a>
+                    <a className="nav-link px-4" href="/#/gallery" id="nav-btn4">Gallery</a>
                   </li>
                   <li className="nav-item click-eff" id="reqproj">
-                    <a className="nav-link px-4" href="/" id="nav-btn5" data-toggle="modal" data-target="#modalRequestProject">Request
+                    <a className="nav-link px-4" href="/#/" id="nav-btn5" data-toggle="modal" data-target="#modalRequestProject">Request
                       a
                       Project</a>
                   </li>
