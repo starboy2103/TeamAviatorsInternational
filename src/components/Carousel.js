@@ -7,7 +7,7 @@ export default class Carousel extends Component {
 
                     {/* mobile */}
                     <div className="view" id="view-car" style={{backgroundImage: 'url("dronemob.png")'}}>
-                        <div className="carousel-txt-overlay">
+                        <div className="carousel-txt-overlay pl-3">
                             <h1 className="display-4 textsemibold rpnv-txt1">Team Aviators International</h1>
                             <p className=" rpnv-txt2">WE TALK IN MACHS!</p>
                         </div>

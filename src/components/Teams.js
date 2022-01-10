@@ -46,7 +46,7 @@ export default class Teams extends Component {
                             <div className="card card-zoom">
 
                                 <div className="view overlay">
-                                    <img className="card-img-top" src="Vidit.png"
+                                    <img className="card-img-top imgsize" src="Vidit.png"
                                         alt="Card image cap" />
                                     <a href="/">
                                         <div className="mask rgba-white-slight"></div>
@@ -251,7 +251,7 @@ export default class Teams extends Component {
                                     </a>
                                 </div>
 
-                                <div className="card-body text-center" style={{height:"176.4px"}}>
+                                <div className="card-body text-center" id="card-two-height">
 
                                     <h4 className="card-title textbold">Club Vice President</h4><br/>
                                     <h4 className="text-center">Saumya Bhardwaj</h4>

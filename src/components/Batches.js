@@ -227,9 +227,9 @@ export default function Batches() {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td className="pl-5 text-white"><h5>Test subscription</h5></td>
+                                                <td className="pl-5 text-white"><h5>Ganapathi Naayagam</h5></td>
                                                 <td>
-                                                    <a href="" target="_blank"><i class="fab fa-linkedin-in iconssize text-warning"></i></a>
+                                                    <a href="/" target="_blank"><i class="fab fa-linkedin-in iconssize text-warning"></i></a>
                                                 </td>
                                             </tr>
                                         </tbody>

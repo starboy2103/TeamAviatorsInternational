@@ -9,7 +9,7 @@ export default class Achievements extends Component {
         });
 
         $(".step01").click(function () {
-            $("#line-progress").css("width", "3%");
+            $("#line-progress").css("width", "0%");
             $(".discovery").addClass("active").siblings().removeClass("active");
         });
 
@@ -24,7 +24,7 @@ export default class Achievements extends Component {
         });
 
         $(".step04").click(function () {
-            $("#line-progress").css("width", "70%");
+            $("#line-progress").css("width", "75%");
             $(".production").addClass("active").siblings().removeClass("active");
         });
 
