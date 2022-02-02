@@ -203,7 +203,7 @@ export default function Sponsors() {
                                         target="_blank">
                                         <img className="mr-4" src="https://img.icons8.com/material-outlined/36/000000/globe--v2.png" />
                                     </a>
-                                    <a className="ins-ic" href="" target="_blank">
+                                    <a className="ins-ic" href="https://www.instagram.com/tatacompanies/" target="_blank">
                                         <img src="https://img.icons8.com/material-outlined/36/000000/instagram-new--v1.png" />
                                     </a>
                                 </div>

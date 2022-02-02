@@ -229,7 +229,7 @@ export default function Batches() {
                                             <tr>
                                                 <td className="pl-5 text-white"><h5>Ganapathi Naayagam</h5></td>
                                                 <td>
-                                                    <a href="/" target="_blank"><i class="fab fa-linkedin-in iconssize text-warning"></i></a>
+                                                    <a href="https://in.linkedin.com/in/ganapathi-naayagam-352979203" target="_blank"><i class="fab fa-linkedin-in iconssize text-warning"></i></a>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -302,7 +302,7 @@ export default function Batches() {
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td className="pl-5 text-white"><h5>Kailash Natrajan</h5></td>
+                                                <td className="pl-5 text-white"><h5>Kailash Natarajan</h5></td>
                                                 <td>
                                                     <a href="https://www.linkedin.com/in/kailash-natarajan-4775b21b2/" target="_blank"><i class="fab fa-linkedin-in iconssize text-warning"></i></a>
                                                 </td>
@@ -897,6 +897,12 @@ export default function Batches() {
                                                 <td className="pl-5 text-white"><h5>Sakshi Singh</h5></td>
                                                 <td>
                                                     <a href="" target="_blank"><i class="fab fa-linkedin-in iconssize text-warning"></i></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td className="pl-5 text-white"><h5>Ashwin Sreejith</h5></td>
+                                                <td>
+                                                    <a href="https://www.linkedin.com/in/ashwin-sreejith-828399195/" target="_blank"><i class="fab fa-linkedin-in iconssize text-warning"></i></a>
                                                 </td>
                                             </tr>
                                         </tbody>
