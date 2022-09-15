@@ -11,6 +11,7 @@ import Teams from './components/Teams';
 import Batches from './components/Batches';
 import Project from './components/Projects';
 import Gallery from './components/Gallery';
+import Blog from './components/Blog';
 import {HashRouter as Router, Switch, Route} from 'react-router-dom';
 
 
@@ -29,6 +30,7 @@ function App() {
         <Route path="/team" exact component={Teams} />
         <Route path="/team" exact component={Batches} />
         <Route path="/project" exact component={Project} />
+        <Route path="/blogs" exact component={Blog} />
         <Route path="/gallery" exact component={Gallery} />
         <Route path="/" component={Footer} />
       </Router>

@@ -31,6 +31,9 @@ export default class Navbar extends Component {
                   <li className="nav-item click-eff" id="gall">
                     <a className="nav-link px-4" href="/#/gallery" id="nav-btn4">Gallery</a>
                   </li>
+                  <li className="nav-item click-eff" id="blog">
+                    <a className="nav-link px-4" href="/#/blogs" id="nav-btn4">Blog</a>
+                  </li>
                   <li className="nav-item click-eff" id="reqproj">
                     <a className="nav-link px-4" href="/#/" id="nav-btn5" data-toggle="modal" data-target="#modalRequestProject">Request
                       a
